@@ -26,7 +26,6 @@ protobuf {
     }
 }
 
-// todo: Don't know why, add these show error
 androidComponents.beforeVariants {
     android.sourceSets.register(it.name) {
         val buildDir = layout.buildDirectory.get().asFile

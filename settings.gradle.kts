@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "tmdtv"
 include(":app")
+include(":core:common")

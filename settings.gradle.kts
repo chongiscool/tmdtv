@@ -21,5 +21,10 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "tmdtv"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
+
 include(":core:common")
+include(":core:model")
+include(":core:network")

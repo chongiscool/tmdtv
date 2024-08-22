@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.tmdtv.jvm.library)
-    alias(libs.plugins.tmdtv.hilt)
 }
 
 //java {
@@ -9,8 +8,5 @@ plugins {
 //}
 
 dependencies {
-    implementation(libs.kotlinx.coroutines.core)
-
-    testImplementation(libs.kotlinx.coroutines.test)
-    testImplementation(libs.turbine)
+    api(libs.kotlinx.datetime)
 }

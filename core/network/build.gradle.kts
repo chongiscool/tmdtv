@@ -18,7 +18,9 @@ android {
     }
 }
 
-
+secrets {
+    defaultPropertiesFileName = "secrets.defaults.properties"
+}
 
 dependencies {
     api(libs.kotlinx.datetime)

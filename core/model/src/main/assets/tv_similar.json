@@ -1,0 +1,431 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/bdy9DWrEk0IvZmiIkuKCnxtak9l.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10751
+      ],
+      "id": 114105,
+      "origin_country": [
+        "BR"
+      ],
+      "original_language": "pt",
+      "original_name": "Tudo Igual… SQN",
+      "overview": "Carol and her friends prepare for a new year of going to school, to the beach, and having fun in their beloved Rio de Janeiro... but their friendship will be put to the test. Carol will deal with her mother's marriage, her stepfather being her teacher, her insufferable half-brother, and her friends' personal problems. But they will stick together... or not.",
+      "popularity": 141.843,
+      "poster_path": "/hNsUg6ZTmcHy2hHauoASBWhdDTi.jpg",
+      "first_air_date": "2022-05-25",
+      "name": "All the Same… or Not",
+      "vote_average": 6.5,
+      "vote_count": 10
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y6zvrjYbljd6OWSY5EkPnLXSjE7.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10765
+      ],
+      "id": 56343,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "バカとテストと召喚獣",
+      "overview": "Advanced placement into a school of higher grade proof-reading is determined by the results of the Promotion Test strictly for class type. Ranging from A class with the best facilities anyone can offer all the way down to F Class which is composed of low dining tables, rotten tatami mats and other worn out facilities. Students can change classes by competing using the Examination Summons Battle system or ESB. Students summon characters with their equivalent test mark scores and use them to compete with other classes.",
+      "popularity": 103.469,
+      "poster_path": "/waaRRoFFQNGhidrCvoxEjpxcg0D.jpg",
+      "first_air_date": "2010-01-07",
+      "name": "Baka and Test: Summon the Beasts",
+      "vote_average": 7.7,
+      "vote_count": 85
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4d6IKbwq24auvkfhYzIr9IJGKAl.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 215463,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "沧月绘",
+      "overview": "Orphaned Luo Xiyun was born with a fatal poison. She becomes a popular surveyor in Cang Yue and with limited time left, she seeks to avenge her family by targeting the young city master, Jiang Chaoxi. As she navigates her mission, she also works to save her last refuge, Jianjia Lane, from demolition. During her efforts, she uncovers surprising secrets and faces new challenges as her situation evolves.",
+      "popularity": 16.686,
+      "poster_path": "/nYJlfrhECFSkjSX5tZvcXd6yCnk.jpg",
+      "first_air_date": "2022-11-30",
+      "name": "Pretty Guardian of the City",
+      "vote_average": 2,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/i3SJ6MKO90t8xA4Z6bLntbjOFog.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 215489,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "À Table！〜歴史のレシピを作ってたべる〜",
+      "overview": "Fujita Jun and her husband Yoshio, married for 15 years, live in a rural area near Kichijoji. Jun works as a university clerk. while Yoshio works remotely. Together, they create a historical meal recipe using local ingredients.",
+      "popularity": 55.609,
+      "poster_path": "/60QwZ28Ipz2HyMzKO1x6Q2N2NxD.jpg",
+      "first_air_date": "2023-01-09",
+      "name": "À Table!: Make and Eat Historical Recipes",
+      "vote_average": 6,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6bnLAuyHJAgC72mmcir5NAvhQZL.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 215546,
+      "origin_country": [
+        "PH"
+      ],
+      "original_language": "tl",
+      "original_name": "Luv Is",
+      "overview": "A Philippine seasonal anthology TV adaptations of the popular Filipino Wattpad web novels. Produced by GMA Network in partnership with Wattpad Webtoon Studios.",
+      "popularity": 16.1,
+      "poster_path": "/niTixlDw72jJiDqGwG99TOAx3nd.jpg",
+      "first_air_date": "2023-01-16",
+      "name": "Luv Is",
+      "vote_average": 7.9,
+      "vote_count": 34
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jNmHcPQ3rK1oftbltbaUOgGgnV1.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1669,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Oranges Are Not the Only Fruit",
+      "overview": "Seven-year-old Jess is removed from her peculiar Pentecostal home and sent to school.",
+      "popularity": 13.502,
+      "poster_path": "/mMETYbPN7PJeSkEpKeOlSrzStTV.jpg",
+      "first_air_date": "1990-01-10",
+      "name": "Oranges Are Not the Only Fruit",
+      "vote_average": 6.722,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10765
+      ],
+      "id": 215971,
+      "origin_country": [
+        "KR"
+      ],
+      "original_language": "ko",
+      "original_name": "우주선 닥터",
+      "overview": "",
+      "popularity": 1.534,
+      "poster_path": null,
+      "first_air_date": "",
+      "name": "우주선 닥터",
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/lXx9FxKmjv3VREoGsDRsCQ4rrIr.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 53050,
+      "origin_country": [
+        "SE"
+      ],
+      "original_language": "sv",
+      "original_name": "Längtans blåa blomma",
+      "overview": "Betty, who dreams of love, refuses to put up with the rules and conventions of the time.",
+      "popularity": 20.107,
+      "poster_path": "/cXUun7LUo7SZc2TwAvvYxdbDS2t.jpg",
+      "first_air_date": "1998-10-12",
+      "name": "Längtans blåa blomma",
+      "vote_average": 5,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8yfPHZyAVHVpShPotFV5kCtIjy7.jpg",
+      "genre_ids": [
+        16,
+        10765
+      ],
+      "id": 53052,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "新世界より",
+      "overview": "Born into a world 1000 years in our future, Saki and her friends live in utopia. Not only is their idyllic community overflowing with resources, but technology is obsolete, thanks to a magical power that grants the ability to materialize anything. However, when Saki discovers a lost artifact, the facade is shattered! Faced with a startling truth about their town, Saki and her companions face dangers they never knew existed, and their choices may change the fate of everyone.",
+      "popularity": 180.993,
+      "poster_path": "/ywghUXAMWJ2uY43bPUgRCPnusJF.jpg",
+      "first_air_date": "2012-09-29",
+      "name": "From the New World",
+      "vote_average": 7.83,
+      "vote_count": 94
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/de6iC707SwuMsE3y2fo5OHCOsvj.jpg",
+      "genre_ids": [
+        16,
+        10759,
+        10765,
+        18
+      ],
+      "id": 83095,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "盾の勇者の成り上がり",
+      "overview": "Iwatani Naofumi, a run-of-the-mill otaku, finds a book in the library that summons him to another world. He is tasked with joining the sword, spear, and bow as one of the Four Cardinal Heroes and fighting the Waves of Catastrophe as the Shield Hero. Excited by the prospect of a grand adventure, Naofumi sets off with his party. However, merely a few days later, he is betrayed and loses all his money, dignity, and respect. Unable to trust anyone anymore, he employs a slave named Raphtalia and takes on the Waves and the world. But will he really find a way to overturn this desperate situation?",
+      "popularity": 110.126,
+      "poster_path": "/yjq2n0agGJfmZQ9NpbYIhuBofcq.jpg",
+      "first_air_date": "2019-01-09",
+      "name": "The Rising of the Shield Hero",
+      "vote_average": 8.555,
+      "vote_count": 1311
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/irlVNb7MmDI5GJ9Ri0GHYmWCwdM.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 2371,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "Bodies",
+      "overview": "Bodies is an award-winning British television medical drama produced by Hat Trick Productions for the BBC. Created by Jed Mercurio, the series began in 2004 and is based on his book Bodies. In December 2009, The Times ranked Bodies in 9th place in its list of \"Shows of the Decade\". The Guardian has ranked the series among \"The Greatest Television Dramas of All-Time\".",
+      "popularity": 33.613,
+      "poster_path": "/iQKgVGaHSxIOsSDDyGH5QZpWp4e.jpg",
+      "first_air_date": "2004-05-23",
+      "name": "Bodies",
+      "vote_average": 6.6,
+      "vote_count": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wPT3xuLb4OM5IKCAiHiMblxiqX.jpg",
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "id": 2474,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "A Touch of Frost",
+      "overview": "Jack Frost is a gritty, dogged and unconventional detective with sympathy for the underdog and an instinct for moral justice who attracts trouble like a magnet. Despite some animosity with his superintendent, Norman “Horn-rimmed Harry” Mullett, Frost and his ever-changing roster of assistants manage to solve cases via his clever mind, good heart, and cool touch.",
+      "popularity": 195.107,
+      "poster_path": "/ffGxtqWI0TFVuLRGawxFJbibZfx.jpg",
+      "first_air_date": "1992-12-06",
+      "name": "A Touch of Frost",
+      "vote_average": 7.483,
+      "vote_count": 60
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hIk6NJQ2wrt2LuGjOgazPe3kJXl.jpg",
+      "genre_ids": [
+        18,
+        10768
+      ],
+      "id": 2498,
+      "origin_country": [
+        "GB"
+      ],
+      "original_language": "en",
+      "original_name": "War & Peace",
+      "overview": "The classic BBC dramatisation of Tolstoy's epic story of love and loss set against the backdrop of the Napoleonic Wars. Anthony Hopkins heads the cast as Pierre Bezuhov (a role for which he won the 1972 Best Actor BAFTA); Morag Hood is the impulsive and beautiful Natasha Rostova; Alan Dobie is the dour but heroic Andrei Bolkonsky; and David Swift is Napoleon, whose decision to invade Russia in 1812 has far-reaching consequences for Pierre and the Rostov and Bolkonsky families. The twenty-part serial was the vision of producer David Conroy whose principle aim was to transfer the rich characterisation and incident from Tolstoy's greatest novel to a television drama. Scripted by Jack Pulman and directed by John Davies, Conroy's War And Peace boasts superb acting, award-winning design (1972 Best Design BAFTA) and breathtaking battle sequences which were filmed in former Yugoslavia.",
+      "popularity": 129.778,
+      "poster_path": "/75FMQ5zRFvvUbUTvJbDLAgZIedd.jpg",
+      "first_air_date": "1972-09-29",
+      "name": "War & Peace",
+      "vote_average": 7.3,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/5J4f4XDeRg7c7bHcXK26e1gkb0t.jpg",
+      "genre_ids": [
+        16,
+        35,
+        9648,
+        18
+      ],
+      "id": 82739,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+      "overview": "Puberty Syndrome—a rumored, mysterious syndrome that only affects those in their puberty. For example, a bunny girl suddenly appeared in front of Sakuta Azusagawa. The bunny girl's real identity is Mai Sakurajima, a teenage celebrity who is currently an inactive high school senior. For some reason, her charming figure does not reflect in the eyes of others. In the course of revealing the mystery behind this phenomenon, Sakuta begins to explore his feelings towards Mai. Set in a city where the skies and seas shine, Sakuta unfolds the meaning behind his bizarre encounters on women with the said syndrome.",
+      "popularity": 89.752,
+      "poster_path": "/aZqrrApjYUluz9QformO6lZdlO0.jpg",
+      "first_air_date": "2018-10-04",
+      "name": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "vote_average": 8.567,
+      "vote_count": 1178
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qiSaiNLEzx0lK3AC93aweYx7rFx.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10768
+      ],
+      "id": 82744,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Catch-22",
+      "overview": "Pianosa Island, Italy, World War II. Bombardier John Yossarian tries to fulfill his duty, maintain sanity and return home as soon as possible, but incompetence and bureaucracy constantly stand in his way.",
+      "popularity": 60.846,
+      "poster_path": "/1huTLz8UaEeOLJNwqMKCQs76Bl5.jpg",
+      "first_air_date": "2019-05-17",
+      "name": "Catch-22",
+      "vote_average": 7.393,
+      "vote_count": 210
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/coFwkdHtIxbcu9cnP1QU9eXg1LX.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 82762,
+      "origin_country": [
+        "CN"
+      ],
+      "original_language": "zh",
+      "original_name": "最亲爱的你",
+      "overview": "When five college students share a house, they also share their experiences with life and love. Han Yi Tong, Ni Jin, Chen Chen Chen, Lin Xiao Chun and Zhang Sheng Nan are roommates who share a house while attending the same university. Can they support each other through the many challenges they face?",
+      "popularity": 33.751,
+      "poster_path": "/vaFULUgeyEEQLVxRaqoTHUDbips.jpg",
+      "first_air_date": "2018-07-13",
+      "name": "Youth",
+      "vote_average": 10,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/p79OjKQC2eYnFpK01gTiios5XqN.jpg",
+      "genre_ids": [
+        16,
+        18,
+        35
+      ],
+      "id": 82766,
+      "origin_country": [
+        "JP"
+      ],
+      "original_language": "ja",
+      "original_name": "風が強く吹いている",
+      "overview": "Kakeru, a former elite runner at high school, is chased for stealing food. He is saved by Kansei University student Haiji, who is also a runner. Haiji persuades Kakeru to live in the old apartment \"Chikuseisou\" where he plans to team up with fellow residents to enter Hakone Ekiden Marathon, one of the most prominent university races in Japan. Kakeru soon finds out that all of the residents except for Haiji and himself are complete novices.",
+      "popularity": 95.046,
+      "poster_path": "/zBZLWzncbPeeLhi6DJAx7MspHlS.jpg",
+      "first_air_date": "2018-10-03",
+      "name": "Run with the Wind",
+      "vote_average": 7.6,
+      "vote_count": 45
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qx7qy2GJOc7yGY6WENyBU3OVv7A.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        10765
+      ],
+      "id": 82816,
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Lovecraft Country",
+      "overview": "The anthology horror series follows 25-year-old Atticus Freeman, who joins up with his friend Letitia and his Uncle George to embark on a road trip across 1950s Jim Crow America to find his missing father. They must survive and overcome both the racist terrors of white America and the malevolent spirits that could be ripped from a Lovecraft paperback.",
+      "popularity": 46.911,
+      "poster_path": "/fz7bdjxPColvEWCGr5Kiclzc86d.jpg",
+      "first_air_date": "2020-08-16",
+      "name": "Lovecraft Country",
+      "vote_average": 7.175,
+      "vote_count": 649
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2QfAZfgJX9aRhoQC6bRwarOD8Vw.jpg",
+      "genre_ids": [
+        18,
+        80
+      ],
+      "id": 82842,
+      "origin_country": [
+        "NL"
+      ],
+      "original_language": "nl",
+      "original_name": "LOIS",
+      "overview": "Lois Elzinga, a detective with the Alkmaar police, has her very private life come to the fore against the background of three tough cases in this thriller series based on the trilogy penned by Simone van der Vlugt.",
+      "popularity": 18.451,
+      "poster_path": "/nFzHSuKxgipn92Syf20vIjbpW0O.jpg",
+      "first_air_date": "2018-11-28",
+      "name": "LOIS",
+      "vote_average": 7.3,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/96eQmKSy5P2XzmJfxfqM7E3hca6.jpg",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "id": 82858,
+      "origin_country": [
+        "PL"
+      ],
+      "original_language": "pl",
+      "original_name": "Ślepnąc od świateł",
+      "overview": "An eight-episode story charting seven days from the life of a cocaine dealer whose perfectly organized life begins to sink into chaos while he is forced to make the most important choices in his life.",
+      "popularity": 54.321,
+      "poster_path": "/gXCa394XSso2QNgxxxIIn9zScj8.jpg",
+      "first_air_date": "2018-10-27",
+      "name": "Blinded by the Lights",
+      "vote_average": 7.5,
+      "vote_count": 39
+    }
+  ],
+  "total_pages": 2288,
+  "total_results": 45752
+}

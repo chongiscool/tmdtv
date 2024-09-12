@@ -2,66 +2,116 @@ package com.wecanteen105.core.model
 
 data class MovieDetail(
     val adult: Boolean,
-    val backdrop_path: String,
-    val belongs_to_collection: Any,
+    val backdropPath: String,
+    val belongsToCollection: Any,
     val budget: Int,
     val genres: List<Genre>,
     val homepage: String,
     val id: Int,
-    val imdb_id: String,
-    val origin_country: List<String>,
-    val original_language: String,
-    val original_title: String,
+    val imdbId: String,
+    val originCountry: List<String>,
+    val originalLanguage: String,
+    val originalTitle: String,
     val overview: String,
     val popularity: Double,
-    val poster_path: String,
-    val production_companies: List<ProductionCompany>,
-    val production_countries: List<ProductionCountry>,
-    val release_date: String,
+    val posterPath: String,
+    val productionCompanies: List<ProductionCompany>,
+    val productionCountries: List<ProductionCountry>,
+    val releaseDate: String,
     val revenue: Int,
     val runtime: Int,
-    val spoken_languages: List<SpokenLanguage>,
+    val spokenLanguages: List<SpokenLanguage>,
     val status: String,
     val tagline: String,
     val title: String,
     val video: Boolean,
-    val vote_average: Double,
-    val vote_count: Int
+    val voteAverage: Double,
+    val voteCount: Int
 )
 
 data class TvDetail(
     val adult: Boolean,
-    val backdrop_path: String,
-    val created_by: List<CreatedBy>,
-    val episode_run_time: List<Any>,
-    val first_air_date: String,
+    val backdropPath: String,
+    val createdBy: List<CreatedBy>,
+    val episodeRunTime: List<Any>,
+    val firstAirDate: String,
     val genres: List<Genre>,
     val homepage: String,
     val id: Int,
-    val in_production: Boolean,
+    val inProduction: Boolean,
     val languages: List<String>,
-    val last_air_date: String,
-    val last_episode_to_air: LastEpisodeToAir,
+    val lastAirDate: String,
+    val lastEpisodeToAir: LastEpisodeToAir,
     val name: String,
     val networks: List<Network>,
-    val next_episode_to_air: Any,
-    val number_of_episodes: Int,
-    val number_of_seasons: Int,
-    val origin_country: List<String>,
-    val original_language: String,
-    val original_name: String,
+    val nextEpisodeToAir: Any,
+    val numberOfEpisodes: Int,
+    val numberOfSeasons: Int,
+    val originCountry: List<String>,
+    val originalLanguage: String,
+    val originalName: String,
     val overview: String,
     val popularity: Double,
-    val poster_path: String,
-    val production_companies: List<ProductionCompany>,
-    val production_countries: List<ProductionCountry>,
+    val posterPath: String,
+    val productionCompanies: List<ProductionCompany>,
+    val productionCountries: List<ProductionCountry>,
     val seasons: List<Season>,
-    val spoken_languages: List<SpokenLanguage>,
+    val spokenLanguages: List<SpokenLanguage>,
     val status: String,
     val tagline: String,
     val type: String,
-    val vote_average: Double,
-    val vote_count: Int
+    val voteAverage: Double,
+    val voteCount: Int
+)
+
+data class ProductionCompany(
+    val id: Int,
+    val logoPath: String,
+    val name: String,
+    val originCountry: String
+)
+
+data class CreatedBy(
+    val creditId: String,
+    val gender: Int,
+    val id: Int,
+    val name: String,
+    val originalName: String,
+    val profilePath: String
+)
+
+data class LastEpisodeToAir(
+    val airDate: String,
+    val episodeNumber: Int,
+    val episodeType: String,
+    val id: Int,
+    val name: String,
+    val overview: String,
+    val productionCode: String,
+    val runtime: Int,
+    val seasonNumber: Int,
+    val showId: Int,
+    val stillPath: String,
+    val voteAverage: Double,
+    val voteCount: Int
+)
+
+data class Network(
+    val id: Int,
+    val logoPath: String,
+    val name: String,
+    val originCountry: String
+)
+
+data class Season(
+    val airDate: String,
+    val episodeCount: Int,
+    val id: Int,
+    val name: String,
+    val overview: String,
+    val posterPath: String,
+    val seasonNumber: Int,
+    val voteAverage: Double
 )
 
 data class Genre(
@@ -69,69 +119,19 @@ data class Genre(
     val name: String
 )
 
-data class CreatedBy(
-    val credit_id: String,
-    val gender: Int,
-    val id: Int,
-    val name: String,
-    val original_name: String,
-    val profile_path: String
-)
-
-data class LastEpisodeToAir(
-    val air_date: String,
-    val episode_number: Int,
-    val episode_type: String,
-    val id: Int,
-    val name: String,
-    val overview: String,
-    val production_code: String,
-    val runtime: Int,
-    val season_number: Int,
-    val show_id: Int,
-    val still_path: String,
-    val vote_average: Double,
-    val vote_count: Int
-)
-
-data class Network(
-    val id: Int,
-    val logo_path: String,
-    val name: String,
-    val origin_country: String
-)
-
-data class ProductionCompany(
-    val id: Int,
-    val logo_path: String,
-    val name: String,
-    val origin_country: String
-)
-
 data class ProductionCountry(
     /**
      * eg: US, CN, FR
      */
-    val iso_3166_1: String,
+    val iso31661: String,
     val name: String
 )
 
-data class Season(
-    val air_date: String,
-    val episode_count: Int,
-    val id: Int,
-    val name: String,
-    val overview: String,
-    val poster_path: String,
-    val season_number: Int,
-    val vote_average: Double
-)
-
 data class SpokenLanguage(
-    val english_name: String,
+    val englishName: String,
     /**
      * eg: zh, en, fr
      */
-    val iso_639_1: String,
+    val iso6391: String,
     val name: String
 )

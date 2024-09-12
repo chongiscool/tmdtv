@@ -9,27 +9,27 @@ data class Credit(
 data class Cast(
     val adult: Boolean,
     val character: String,
-    val credit_id: String,
+    val creditId: String,
     val gender: Int,
     val id: Int,
-    val known_for_department: String,
+    val knownForDepartment: String,
     val name: String,
     val order: Int,
-    val original_name: String,
+    val originalName: String,
     val popularity: Double,
-    val profile_path: String
+    val profilePath: String
 )
 
 data class Crew(
     val adult: Boolean,
-    val credit_id: String,
+    val creditId: String,
     val department: String,
     val gender: Int,
     val id: Int,
     val job: String,
-    val known_for_department: String,
+    val knownForDepartment: String,
     val name: String,
-    val original_name: String,
+    val originalName: String,
     val popularity: Double,
-    val profile_path: String
+    val profilePath: String
 )

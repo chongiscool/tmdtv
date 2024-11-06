@@ -1,12 +1,12 @@
 package com.wecanteen105.core.model
 
-data class MovieTvReviews(
-    val id: Int,
-    val page: Int,
-    val results: List<Review>,
-    val totalPages: Int,
-    val totalResults: Int
-)
+//data class MovieTvReviews(
+//    val id: Int,
+//    val page: Int,
+//    val results: List<Review>,
+//    val totalPages: Int,
+//    val totalResults: Int
+//)
 
 data class Review(
     val author: String,

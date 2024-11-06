@@ -1,11 +1,5 @@
 package com.wecanteen105.core.model
 
-data class Credit(
-    val cast: List<Cast>,
-    val crew: List<Crew>,
-    val id: Int
-)
-
 data class Cast(
     val adult: Boolean,
     val character: String,

@@ -5,20 +5,17 @@ package com.wecanteen105.core.model
 /**
  * List of media types: Movies(popular, top rated, movie recommendations), TV shows(tv recommendations)
  */
-data class MovieTvList<T>(
-    val page: Int,
-    val results: List<T> = emptyList(),
-    val totalPages: Int,
-    val totalResults: Int,
-)
+//data class MovieTvList<T>(
+//    val page: Int,
+//    val results: List<T> = emptyList(),
+//    val totalPages: Int,
+//    val totalResults: Int,
+//)
 
 data class Movie(
     val adult: Boolean,
-    val backdropPath: String,
-    val genreIds: List<Int>,
+    val backdropPath: String?,
     val id: Int,
-    val originalLanguage: String,
-    val originalTitle: String,
     val overview: String,
     val popularity: Double,
     val posterPath: String,
@@ -31,14 +28,10 @@ data class Movie(
 
 data class Tv(
     val adult: Boolean,
-    val backdropPath: String,
+    val backdropPath: String?,
     val firstAirDate: String,
-    val genreIds: List<Int>,
     val id: Int,
     val name: String,
-    val originCountry: List<String>,
-    val originalLanguage: String,
-    val originalName: String,
     val overview: String,
     val popularity: Double,
     val posterPath: String,

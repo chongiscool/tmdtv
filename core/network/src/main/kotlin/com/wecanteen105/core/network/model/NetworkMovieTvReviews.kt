@@ -1,10 +1,9 @@
 package com.wecanteen105.core.network.model
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.SerialName
-import com.wecanteen105.core.model.MovieTvReviews
 
 /**
- * Network representation of [MovieTvReviews]
+ * Network representation of MovieTvReviews
  */
 @Serializable
 data class NetworkMovieTvReviews(

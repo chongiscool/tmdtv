@@ -2,10 +2,9 @@ package com.wecanteen105.core.network.model
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import com.wecanteen105.core.model.MovieTvList
 
 /**
- * Network representation of [MovieTvList]
+ * Network representation of MovieTvList
  */
 @Serializable
 data class NetworkMovieTvList<T>(
@@ -21,8 +20,6 @@ data class NetworkMovie(
     @SerialName("backdrop_path") val backdropPath: String?,
     @SerialName("genre_ids") val genreIds: List<Int>,
     @SerialName("id") val id: Int,
-    @SerialName("original_language") val originalLanguage: String,
-    @SerialName("original_title") val originalTitle: String,
     @SerialName("overview") val overview: String,
     @SerialName("popularity") val popularity: Double,
     @SerialName("poster_path") val posterPath: String?,
@@ -41,9 +38,6 @@ data class NetworkTv(
     @SerialName("genre_ids") val genreIds: List<Int>,
     @SerialName("id") val id: Int,
     @SerialName("name") val name: String,
-    @SerialName("origin_country") val originCountry: List<String>,
-    @SerialName("original_language") val originalLanguage: String,
-    @SerialName("original_name") val originalName: String,
     @SerialName("overview") val overview: String,
     @SerialName("popularity") val popularity: Double,
     @SerialName("poster_path") val posterPath: String?,

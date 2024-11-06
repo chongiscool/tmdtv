@@ -18,38 +18,24 @@ data class NetworkMovieDetail(
     val belongsToCollection: String?,
     @SerialName("budget")
     val budget: Int,
-    @SerialName("genres")
-    val genres: List<NetworkGenre>,
     @SerialName("homepage")
     val homepage: String,
     @SerialName("id")
     val id: Int,
     @SerialName("imdb_id")
     val imdbId: String,
-    @SerialName("origin_country")
-    val originCountry: List<String>,
-    @SerialName("original_language")
-    val originalLanguage: String,
-    @SerialName("original_title")
-    val originalTitle: String,
     @SerialName("overview")
     val overview: String,
     @SerialName("popularity")
     val popularity: Double,
     @SerialName("poster_path")
     val posterPath: String?,
-    @SerialName("production_companies")
-    val productionCompanies: List<NetworkProductionCompany>,
-    @SerialName("production_countries")
-    val productionCountries: List<NetworkProductionCountry>,
     @SerialName("release_date")
     val releaseDate: String,
     @SerialName("revenue")
     val revenue: Int,
     @SerialName("runtime")
     val runtime: Int,
-    @SerialName("spoken_languages")
-    val spokenLanguages: List<NetworkSpokenLanguage>,
     @SerialName("status")
     val status: String,
     @SerialName("tagline")
@@ -70,14 +56,10 @@ data class NetworkTvDetail(
     val adult: Boolean,
     @SerialName("backdrop_path")
     val backdropPath: String?,
-    @SerialName("created_by")
-    val createdBy: List<NetworkCreatedBy>,
     @SerialName("episode_run_time")
     val episodeRunTime: List<Int?>,
     @SerialName("first_air_date")
     val firstAirDate: String,
-    @SerialName("genres")
-    val genres: List<NetworkGenre>,
     @SerialName("homepage")
     val homepage: String,
     @SerialName("id")
@@ -85,41 +67,23 @@ data class NetworkTvDetail(
     @SerialName("in_production")
     val inProduction: Boolean,
     @SerialName("languages")
-    val languages: List<String>,
-    @SerialName("last_air_date")
     val lastAirDate: String,
-    @SerialName("last_episode_to_air")
-    val lastEpisodeToAir: NetworkLastEpisodeToAir,
     @SerialName("name")
     val name: String,
-    @SerialName("networks")
-    val networks: List<NetworkNetwork>,
     @SerialName("next_episode_to_air")
     val nextEpisodeToAir: String?,
     @SerialName("number_of_episodes")
     val numberOfEpisodes: Int,
     @SerialName("number_of_seasons")
     val numberOfSeasons: Int,
-    @SerialName("origin_country")
-    val originCountry: List<String>,
-    @SerialName("original_language")
-    val originalLanguage: String,
-    @SerialName("original_name")
-    val originalName: String,
     @SerialName("overview")
     val overview: String,
     @SerialName("popularity")
     val popularity: Double,
     @SerialName("poster_path")
     val posterPath: String?,
-    @SerialName("production_companies")
-    val productionCompanies: List<NetworkProductionCompany>,
-    @SerialName("production_countries")
-    val productionCountries: List<NetworkProductionCountry>,
     @SerialName("seasons")
     val seasons: List<NetworkSeason>,
-    @SerialName("spoken_languages")
-    val spokenLanguages: List<NetworkSpokenLanguage>,
     @SerialName("status")
     val status: String,
     @SerialName("tagline")

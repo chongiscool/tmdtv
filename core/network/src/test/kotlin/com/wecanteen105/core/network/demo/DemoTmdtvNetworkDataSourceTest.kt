@@ -30,7 +30,7 @@ class DemoTmdtvNetworkDataSourceTest {
     fun `test deserialization of movie detail`() = runTest (testDispatcher) {
         assertEquals(
             "Fight Club",
-            subject.getMovieDetail(550).originalTitle,
+            subject.getMovieDetail(550).title,
         )
         assertEquals(550,
             subject.getMovieDetail(550).id)
@@ -49,8 +49,6 @@ class DemoTmdtvNetworkDataSourceTest {
                 backdropPath = "/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg",
                 genreIds = listOf(28, 35, 878),
                 id = 533535,
-                originalLanguage = "en",
-                originalTitle = "Deadpool & Wolverine",
                 overview = "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
                 popularity = 4210.061,
                 posterPath = "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
@@ -73,9 +71,6 @@ class DemoTmdtvNetworkDataSourceTest {
                 backdropPath = "/nlLKuyFz6lI0KyiY1V1AE2GwGX9.jpg",
                 genreIds = listOf(35, 18, 10766),
                 id = 32209,
-                originCountry = listOf("PE"),
-                originalLanguage = "es",
-                originalName = "Al Fondo Hay Sitio",
                 overview = "Al fondo hay sitio is a Peruvian TV series created in 2008-2009 by Efraín Aguilar. It deals with the problems of social differences and economic status. It's one of the most popular shows in Peru and is now being shown in Ecuador, Bolivia, Paraguay and Uruguay.",
                 popularity = 5450.913,
                 posterPath = "/g7cuCCkvoBuSwemTHYz3k0hvvmz.jpg",

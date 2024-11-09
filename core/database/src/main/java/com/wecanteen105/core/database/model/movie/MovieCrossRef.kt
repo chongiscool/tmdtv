@@ -8,8 +8,8 @@ import com.wecanteen105.core.database.model.people.CastEntity
 import com.wecanteen105.core.database.model.people.CrewEntity
 
 /**
- * Why use [MovieEntity] NOT [MovieDetailEntity], when use a cast to fetch all this cast tvs, which is a list of [TvEntity].
- * If I click one Tv, then go to TvDetail.
+ * Why use [MovieEntity] NOT [MovieDetailEntity], when use a cast to fetch all this cast movies, which is a list of [MovieEntity].
+ * If I click one movie, then go to its MovieDetail.
  */
 @Entity(
     tableName = "movies_crews",

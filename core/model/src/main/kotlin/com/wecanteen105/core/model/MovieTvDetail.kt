@@ -25,7 +25,7 @@ data class MovieDetail(
 data class TvDetail(
     val adult: Boolean,
     val backdropPath: String?,
-    val episodeRunTime: List<Int?>,
+    val episodeRunTime: List<Int>,
     val firstAirDate: String,
     val homepage: String,
     val id: Int,

@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.tmdtv.android.library.jacoco)
     alias(libs.plugins.tmdtv.android.room)
     alias(libs.plugins.tmdtv.hilt)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -14,6 +15,7 @@ dependencies {
     api(projects.core.model)
 
     implementation(libs.kotlinx.datetime)
+    implementation(libs.kotlinx.serialization.json)
 
     androidTestImplementation(libs.androidx.test.core)
     androidTestImplementation(libs.androidx.test.runner)

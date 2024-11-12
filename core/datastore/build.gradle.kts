@@ -10,6 +10,11 @@ android {
     defaultConfig {
         consumerProguardFiles("consumer-rules.pro")
     }
+    testOptions {
+        unitTests {
+            isReturnDefaultValues = true
+        }
+    }
 
 }
 
@@ -21,5 +26,6 @@ dependencies {
 
     implementation(projects.core.common)
 
+    testImplementation(projects.core.datastoreTest)
     testImplementation(libs.kotlinx.coroutines.test)
 }

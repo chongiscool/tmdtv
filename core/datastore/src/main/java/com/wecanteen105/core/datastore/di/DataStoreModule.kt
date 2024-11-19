@@ -7,7 +7,8 @@ import androidx.datastore.dataStoreFile
 import com.wecanteen105.core.common.network.Dispatcher
 import com.wecanteen105.core.common.network.TmdDispatchers
 import com.wecanteen105.core.common.network.di.ApplicationScope
-//import com.wecanteen105.core.datastore.UserPreferencesSerializer
+import com.wecanteen105.core.datastore.UserPreferences
+import com.wecanteen105.core.datastore.UserPreferencesSerializer
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -17,23 +18,23 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 import javax.inject.Singleton
 
-//@Module
-//@InstallIn(SingletonComponent::class)
-//object DataStoreModule {
-//
-//    @Provides
-//    @Singleton
-//    internal fun providesUserPreferencesDataStore(
-//        @ApplicationContext context: Context,
-//        @Dispatcher(TmdDispatchers.IO) ioDispatcher: CoroutineDispatcher,
-//        @ApplicationScope scope: CoroutineScope,
-//        userPreferencesSerializer: UserPreferencesSerializer,
-//    ): DataStore<UserPreferences> =
-//        DataStoreFactory.create(
-//            serializer = userPreferencesSerializer,
-//            scope = CoroutineScope(scope.coroutineContext + ioDispatcher),
-////            migrations = listOf()
-//        ) {
-//            context.dataStoreFile("user_preferences.pb")
-//        }
-//}
+@Module
+@InstallIn(SingletonComponent::class)
+object DataStoreModule {
+
+    @Provides
+    @Singleton
+    internal fun providesUserPreferencesDataStore(
+        @ApplicationContext context: Context,
+        @Dispatcher(TmdDispatchers.IO) ioDispatcher: CoroutineDispatcher,
+        @ApplicationScope scope: CoroutineScope,
+        userPreferencesSerializer: UserPreferencesSerializer,
+    ): DataStore<UserPreferences> =
+        DataStoreFactory.create(
+            serializer = userPreferencesSerializer,
+            scope = CoroutineScope(scope.coroutineContext + ioDispatcher),
+//            migrations = listOf()
+        ) {
+            context.dataStoreFile("user_preferences.pb")
+        }
+}
